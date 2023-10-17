@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * opcodes_select - get opcodes to perform.
+ * opcode_select - get opcodes to perform.
  * @opcodes: opcode.
  * Return: pointer to function to executes the opcode.
  */
-void (*opcodes_select(char *opcodes))(stack_t **stack, unsigned int line_number)
+void (*opcode_select(char *opcodes))(stack_t **stack, unsigned int line_number)
 {
 	instruction_t instruct[] = {
 		{"push", add_to_stack},

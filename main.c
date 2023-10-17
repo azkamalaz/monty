@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		l[0] = str_token(gvar.buf, " \t\n");
 		if (l[0] && l[0][0] != '#')
 		{
-			f = opcodes_select(l[0]); /*yet*/
+			f = opcode_select(l[0]); /*yet*/
 			if (!f)
 			{
 				dprintf(2, "L%u: ", gvar.curr);

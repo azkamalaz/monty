@@ -2,7 +2,7 @@
 /**
  * subtracts - subtracts the top element to the second top element.
  * @head: head of the linked list.
- * @cline: line number.
+ * @ln: line number.
  * Return: nothing.
  */
 void subtracts(stack_t **head, unsigned int ln)
@@ -12,7 +12,8 @@ void subtracts(stack_t **head, unsigned int ln)
 
 	a = *head;
 
-	for (; a != NULL; a = a->next, i++);
+	for (; a != NULL; a = a->next, i++)
+		;
 
 	if (i < 2)
 	{

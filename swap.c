@@ -12,7 +12,8 @@ void swap_to_top(stack_t **head, unsigned int ln)
 
 	a = *head;
 
-	for (; a != NULL; a = a->next, i++);
+	for (; a != NULL; a = a->next, i++)
+	;
 
 	if (i < 2)
 	{

@@ -5,7 +5,7 @@
  * @ln: line number.
  * Return: nothing.
  */
-void add_to_stack(stack_t **h, unsigned int ln) 
+void add_to_stack(stack_t **h, unsigned int ln)
 {
 	int i, j;
 

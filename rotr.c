@@ -18,7 +18,8 @@ void reverse(stack_t **head, unsigned int ln)
 
 	a = *head;
 
-	for (; a->next != NULL; a = a->next);
+	for (; a->next != NULL; a = a->next)
+	;
 
 	a->prev->next = NULL;
 	a->next = *head;

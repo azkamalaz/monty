@@ -6,7 +6,7 @@
  *@data: data to store.
  *Return: d-list.
  */
-stack_t *add_node_end(stack_t **h, const int data) 
+stack_t *add_node_end(stack_t **h, const int data)
 {
 	stack_t *tmp, *a;
 
@@ -43,7 +43,7 @@ stack_t *add_node_end(stack_t **h, const int data)
  *@data: data to store.
  *Return: d-list.
  */
-stack_t *add_node(stack_t **h, const int data) 
+stack_t *add_node(stack_t **h, const int data)
 {
 	stack_t *tmp;
 
@@ -72,12 +72,12 @@ stack_t *add_node(stack_t **h, const int data)
 	return (*h);
 }
 
-/** 
+/**
  * dlist_free - free doubly linked list.
  * @h: head of the list.
  * Return: nothing.
  */
-void dlist_free(stack_t *h) 
+void dlist_free(stack_t *h)
 {
 	stack_t *tmp;
 

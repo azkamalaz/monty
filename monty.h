@@ -62,7 +62,7 @@ typedef struct instruction_s
 
 extern glob_t gvar; 
 
-void (*opcodes_select(char *opcodes))(stack_t **stack, unsigned int line_number);
+void (*opcode_select(char *opcodes))(stack_t **stack, unsigned int line_number);
 
 void add_to_stack(stack_t **h, unsigned int ln);
 void print_all(stack_t **head, unsigned int ln);

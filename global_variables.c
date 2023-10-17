@@ -6,7 +6,7 @@ glob_t gvar;
  * gvar_free - free gvar.
  * Return: nothing.
  */
-void gvar_free(void) 
+void gvar_free(void)
 {
 	dlist_free(gvar.h);
 	free(gvar.buf);
@@ -18,7 +18,7 @@ void gvar_free(void)
  * @filed: file descriptor.
  * Return: nothing.
  */
-void gvar_init(FILE *filed) 
+void gvar_init(FILE *filed)
 {
 	gvar.s_or_q = 1;
 	gvar.curr = 1;

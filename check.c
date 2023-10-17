@@ -5,7 +5,7 @@
  * @argv: arg vector.
  * Return: file descriptor.
  */
-FILE *_check(int argc, char *argv[]) 
+FILE *_check(int argc, char *argv[])
 {
 	FILE *filed;
 

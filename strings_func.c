@@ -5,7 +5,7 @@
  * @str2: type str compared
  * Return: 0 if str1 and str2 are equals.
  */
-int _strcmp(char *str1, char *str2) 
+int _strcmp(char *str1, char *str2)
 {
 	int i;
 
@@ -23,7 +23,7 @@ int _strcmp(char *str1, char *str2)
  * @chars: char to find.
  * Return: 1 if success 0 if faillure.
  */
-int find_char(char *str, char chars) 
+int find_char(char *str, char chars)
 {
 	int n = 0;
 
@@ -47,7 +47,7 @@ int find_char(char *str, char chars)
  * @delim: delimiters.
  * Return: first part.
  */
-char *str_token(char *str, char *delim) 
+char *str_token(char *str, char *delim)
 {
 	static char *a;
 	int i = 0, j = 0;

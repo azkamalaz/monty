@@ -20,7 +20,8 @@ void rotates_left(stack_t **head, unsigned int ln)
 	a1 = (*head)->next;
 	a2 = *head;
 
-	for (; a2->next != NULL; a2 = a2->next);
+	for (; a2->next != NULL; a2 = a2->next)
+	;
 
 	a1->prev = NULL;
 	a2->next = *head;
